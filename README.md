@@ -31,5 +31,5 @@ Web日記版:<a href="https://web-diarys.web.app/App/public6/index.html">Docker+
 最初はこの画面になっているためログインしないと使用できません。<br><br>
 データセットの二次配布が禁止されているので実装しました。<br><br>
 <div class="work-image">
-  ![image](https://user-images.githubusercontent.com/116938721/236785637-ba378d78-3566-4513-8a9a-edf181aa8b9d.png)
+  <img width="700" alt="image" src="https://user-images.githubusercontent.com/116938721/236797569-08f71249-52ca-4ede-a872-76cb92a17371.png">
 </div>
