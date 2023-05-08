@@ -1,0 +1,95 @@
+{% load static %} 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>My App</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="page-cover bg-3 text-dark">
+      <h1 class="page-title text-1">Text Mining App</h1>
+      <div style="height: 20px"></div>
+
+      <div class="app-bar">
+        <div class="app-bar-title">MENU</div>
+        <div class="app-bar-button-cover">
+          <button onclick="scroller('#s1')">削除</button>
+        </div>
+      </div>
+      <div style="height: 20px"></div>
+
+      <div class="card-cover bg-white" id="s1">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">データの削除</div>
+          <div style="height: 2px" class="bg-darken"></div>
+        </h2>
+        <div class="card-contents">
+          <br><br>
+          <form method="post" action="{% url 'delete' %}">
+            {% csrf_token %}
+            <label for="model">削除するモデルを選択してください:</label>
+            <select id="model" name="model">
+              <option value="LivedoorNewscorpus">LivedoorNewscorpus</option>
+              <option value="fetch_20newsgroups">fetch_20newsgroups</option>
+            </select>
+            <br><br>
+            <input type="submit" value="削除する" class="btn btn-danger">
+          </form>
+          {% if message %}
+          <div class="alert alert-success" role="alert">
+            {{ message }}
+          </div>
+          {% endif %}
+          <br><br>
+          <a href="{% url 'main' %}">アップロードページに戻る</a>
+        </div>
+      </div>
+      <div style="height: 40px"></div>
+
+      <footer class="footer-cover bg-2 text-light">
+        <div style="height: 4px" class="bg-darken"></div>
+        <div class="card-contents">&copy; My web page.</div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var TOP_BAR_OFFSET = 48;
+      function scroller(query) {
+        var elements = document.querySelectorAll(query);
+        if (elements.length == 0) {
+          console.error(
+            "Selected query:",
+            query,
+            "are not found on this page."
+          );
+          return;
+        }
+        var rect = elements[0].getBoundingClientRect();
+        window.scrollTo({
+          top: rect.top + window.pageYOffset - TOP_BAR_OFFSET,
+          behavior: "smooth",
+        });
+      }
+
+      var swiper = new Swiper(".swiper-area", {
+        direction: "horizontal",
+        spaceBetween: 30,
+        autoplay: { delay: 10 * 1000, disableOnInteraction: false },
+        loop: true,
+        pagination: { el: ".swiper-pagination" },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
