@@ -1,7 +1,7 @@
 # Text_Mining_App
 文書データセットから学習データを作成するアプリを作成しました。<br><br>
 何も整形されていないデータセットに分かち書きや単語整形を施して学習データに変換します。<br><br>
-Web日記版:<a href="https://web-diarys.web.app/App/public6/index.html">Text_Mining_App</a>
+Web日記版:<a href="https://web-diarys.web.app/App/public6/index.html">Docker+Djangoでテキストマイニングアプリを作成</a>
 <br><br>
  
 <h3>メイン画面</h3>
