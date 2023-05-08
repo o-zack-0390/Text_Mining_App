@@ -33,3 +33,19 @@ Web日記版:<a href="https://web-diarys.web.app/App/public6/index.html">Docker+
 <div class="work-image">
   <img width="700" alt="image" src="https://user-images.githubusercontent.com/116938721/236797569-08f71249-52ca-4ede-a872-76cb92a17371.png">
 </div>
+<br><br>
+
+<h3>データベースについて</h3>
+Django administration というデータベース管理機能を使用しています。<br><br>
+データベースはsqlite3(開発環境)とpostgresql(本番環境)です。<br><br>
+
+<h3>データの保存形式</h3>
+<div class="work-image">
+   <img width="718" alt="image" src="https://user-images.githubusercontent.com/116938721/236798849-212dede9-8dee-422a-ac98-0c5642fc5ea8.png">
+</div>
+<br><br>
+
+<h3>データリスト</h3>
+<div class="work-image">
+   <img width="722" alt="image" src="https://user-images.githubusercontent.com/116938721/236799023-96fca806-394b-4788-b8e5-2f928da2ecd5.png">
+</div>
