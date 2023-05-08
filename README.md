@@ -49,6 +49,9 @@ Django administration というデータベース管理機能を使用してい�
 <div class="work-image">
    <img width="722" alt="image" src="https://user-images.githubusercontent.com/116938721/236799023-96fca806-394b-4788-b8e5-2f928da2ecd5.png">
 </div>
+<br><br>
+
+<h2>各選択肢の説明</h2>
 
 <h3><font color="red">整形形式</font></h3>
 「分かち書きのみ」の場合は何も整形しません。<br><br>
