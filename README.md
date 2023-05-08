@@ -51,7 +51,7 @@ Django administration というデータベース管理機能を使用してい�
 </div>
 <br><br>
 
-<h2>各選択肢の説明</h2>
+<h2>各選択肢の仕様</h2>
 
 <h3><font color="red">整形形式</font></h3>
 「分かち書きのみ」の場合は何も整形しません。<br><br>
