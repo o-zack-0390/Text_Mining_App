@@ -1,7 +1,7 @@
 # Text_Mining_App
 文書データセットから学習データを作成するアプリを作成しました。<br><br>
 何も整形されていないデータセットに分かち書きや単語整形を施して学習データに変換します。<br><br>
-実装コード:<a href="https://github.com/o-zack-0390/Text_Mining_App">Text_Mining_App</a>
+Web日記版:<a href="https://web-diarys.web.app/App/public6/index.html">Text_Mining_App</a>
 <br><br>
  
 <h3>メイン画面</h3>
