@@ -8,6 +8,10 @@
   </li>
 </ul>
 <br>
+
+<h3>アーキテクチャ</h3>
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/116938721/236974967-15c98eed-7249-4c62-adc8-3f3b36056f20.png">
+<br><br>
  
 <h3>メイン画面</h3>
 用途に応じた選択肢を選び、「ファイルを作成する」ボタンを押すことでファイルがダウンロードされます。<br><br>
