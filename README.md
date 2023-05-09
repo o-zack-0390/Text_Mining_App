@@ -20,7 +20,7 @@
 
 
 <h3>アーキテクチャ</h3>
-Django の MTV モデルを元に設計。<br>
+Django の MTV モデルを元に設計。<br><br>
 <ul>
     <li>M(Model)    : データベースと連携を取る</li><br>
     <li>T(Template) : HTMLファイルとして画面に反映させる</li><br>
