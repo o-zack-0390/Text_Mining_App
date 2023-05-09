@@ -80,7 +80,7 @@ Django administration というデータベース管理機能を使用してい�
 
 <h3><font color="red">整形形式</font></h3>
 「分かち書きのみ」の場合は何も整形しない。<br><br>
-「分かち書き+整形」の場合は以下の処理をして出力する。<br>
+「分かち書き+整形」の場合は以下の処理をして出力する。<br><br>
 <ul>
    <li>数字を0に置き換える</li><br>
    <li>記号を削除する</li><br>
@@ -90,7 +90,7 @@ Django administration というデータベース管理機能を使用してい�
 </ul>
 
 <h3><font color="red">出力形式</font></h3>
-以下のフォーマットから選択して出力する。<br>
+以下のフォーマットから選択して出力する。<br><br>
 <ul>
    <li>txt (Text Documents)</li><br>
    <li>csv (Comma Separated Values )</li><br>
